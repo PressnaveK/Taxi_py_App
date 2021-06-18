@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Driver</class>
+ <widget class="QFrame" name="Driver">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1054</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QTableWidget" name="vb_widget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>771</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+gridline-color: rgb(0, 0, 0);
+border-color: rgb(11, 11, 11);
+background-color: rgb(144, 144, 144);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Username</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Password</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First_Name</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last_Name</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Vehicle_Type</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Passenger lim</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Vehicle_No</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Proxima Nova</family>
+     </font>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>60</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Driver Info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>50</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(148, 148, 148);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
